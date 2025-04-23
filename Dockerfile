@@ -17,4 +17,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 ENV RUNPOD_HANDLER=handler
-CMD ["python3", "-m", "runpod"]
+CMD ["python3", "-m", "handler.py"]
